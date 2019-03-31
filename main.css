@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.twitch-logo {
+    float: left;
+    background-image: url(graphics/twitch-raw.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100px;
+    height: 100%;
+}
+
+body {
+    background-image: url(graphics/pt_logo.png);
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto 60%;
+    background-color: black;
+}
+
+.root_div {
+    
+}
+
+.header_menu {
+    /**/
+    height: 4rem;
+    background-color: rgba(36, 34, 32, 0.92);
+    padding: 10px;
+    border-bottom: 1px ridge rgba(112, 100, 86, 0.75);
+    position: fixed;
+    width: 100%;
+}
+
+.menu_items {
+    float: right;
+    display: flex;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+.menu_item {
+    font-family: fontinregular;
+    color: #ffaf46;
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: #ffaf46 0px 0px 10px;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header_logo {
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 100px;
+}
+
+.logo_text_container {
+    background-color: rgba(36, 34, 32, 0.5);
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.content_root {
+    background-color: rgba(21, 21, 21, 0.92);
+    border-bottom: 1px ridge rgba(112, 100, 86, 0.75);
+    border-top: 1px ridge rgba(112, 100, 86, 0.75);
+    margin-bottom: 60px;
+    padding: 20px;
+}
+
+.heading1-title {
+    font-family: fontin_smallcapssmallcaps;
+    color: #cec59f;
+    font-size: 2rem;
+}
+
+.heading1 {
+    font-family: fontin_smallcapssmallcaps;
+    color: #cec59f;
+    font-size: 40px;
+}
+
+.heading2 {
+    font-family: fontin_smallcapssmallcaps;
+    color: #cac2a8;
+    font-size: 1.46rem;
+    margin-top: 10px;
+}
+
+.glow-title-big {
+    font-family: fontinregular;
+    color: #ffaf46;
+    font-size: 38px;
+    font-weight: 700;
+    text-shadow: #ffaf46 0px 0px 5px, #ffaf46 0px 0px 7px;
+}
+
+.glow-title-small {
+    font-family: fontinregular;
+    color: #ffaf46;
+    font-size: 26px;
+    font-weight: 700;
+    text-shadow: #ffaf46 0px 0px 10px;
+}
+
+.external-links {
+    display: inline-block;
+    font-family: fontinregular;
+    color: #ffaf46 !important;
+    font-size: 26px;
+    font-weight: 700;
+    text-shadow: #ffaf46 0px 0px 10px;
+}
+
+.external-links-account {
+    color: #ffaf46 !important;
+}
+
+.text-content {
+    font-family: fontin_smallcapssmallcaps, Arial, Helvetica, sans-serif;
+    color: #adaaaa;
+    font-size: 1rem;
+}
+
+.italic-style {
+    font-family: fontinregular;
+    font-style: italic;
+}
+
+.faq-style {
+    font-family: fontinregular;
+    font-style: italic;
+    font-size: 18px;
+    color: #cac2a8 !important;
+    margin-top: 10px;
+}
+
+.list-stats {
+    font-family: fontinregular;
+    font-style: italic;
+    font-size: 18px;
+    color: #cac2a8;
+}
+
+.list-stats span {
+    font-family: fontinregular;
+    font-style: italic;
+    font-size: 18px;
+    color: #adaaaa;
+}
+
+.indent1 {
+    text-indent: 20px;
+    border-bottom: 1px solid #adaaaa;
+}
+
+.indent2 {
+    text-indent: 40px;
+}
+
+.indent3 {
+    text-indent: 60px;
+}
+
+.underline1 {
+    text-decoration: underline;
+}
+
+.top-margin-1 {
+    margin-top: 30px;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-width: 1100px) {
+  .content_root {
+    margin-left: calc((100% - 1100px) / 2);
+    margin-right: calc((100% - 1100px) / 2);
+    border: 1px ridge rgba(112, 100, 86, 0.75);
+  }
+}
+
+/*font-family: FontinSmallCaps, Verdana, Arial, Helvetica, sans-serif;*/

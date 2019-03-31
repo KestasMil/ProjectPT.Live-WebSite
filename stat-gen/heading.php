@@ -1,0 +1,1 @@
+<div class="heading2 indent1 top-margin-1">{heading}</div>
