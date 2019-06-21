@@ -43,7 +43,8 @@ function GenerateOutput3($obj) {
     echo str_replace('{heading}','Main Stats',$output);
     echo "<div class=\"top-margin-1\"></div>";
     if (is_object($obj)) {
-        echo "<div class=\"list-stats indent2\">Players active in the last hour (Currently Online): <span>$obj->ActivePlayers</span></div>";
+        //echo "<div class=\"list-stats indent2\">Players active in the last hour (Currently Online): <span>$obj->ActivePlayers</span></div>";
+        echo "<div class=\"list-stats indent2\">Players active in the last hour (Currently Online): <span>n/a</span></div>";
         echo "<div class=\"list-stats indent2\">Number of players participating: <span>$obj->AccountsParticipating</span></div>";
         echo "<div class=\"list-stats indent2\">Total characters created: <span>$obj->TotalCharacters</span></div>";
         $deadPercentage = round($obj->DeadCharacters*10000/$obj->TotalCharacters)/100;

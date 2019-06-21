@@ -41,6 +41,7 @@ function GenerateOutput($obj) {
     echo str_replace('{heading}','Ascendancy Classes',$output);
     echo "<div class=\"top-margin-1\"></div>";
     if(is_array($obj)) {
+        //test
         foreach ($obj as $item) {
             if ($item->ascendedClass) {
                 echo "<div class=\"list-stats indent2 underline1 top-margin-1\">Class Name: <span>$item->charClass</span></div>";
